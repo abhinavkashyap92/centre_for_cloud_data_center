@@ -1,0 +1,98 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>Cloud Computing and Data Center</title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="../css/template.css">
+			<link rel="stylesheet" href="../css/events.css">
+			<link rel="stylesheet" href="../css/orbit-1.3.0.css">
+			<link href='http://fonts.googleapis.com/css?family=Jacques+Francois' rel='stylesheet' type='text/css'>
+		</head>
+		<body>
+			
+			<!-- This is a body wrapper and makes sure that the body is fixed to a certain width -->
+			<div class="bodyWrapper">
+				
+				<div class="header">
+					<!-- Here goes the logo and the name of the cloud computing and the data center -->
+					<img src="../images/logo.png" alt="Cloud Computing and Data center" id="logo">
+					<img src="../images/pesit_logo.png" alt="PESIT" id="pesit_logo">
+					<p class="department_text">Department of Computer Science and Engineering</p>
+				</div>
+				<!-- end of the header div -->
+				
+				<div class="nav_bar">
+					
+					<ul class="top_level_ul">
+						<a href="index.html"><li class="home">Home</li></a>
+						<a href="projects.html"><li class="projects">Projects</li></a>
+						<a href="people.html"><li class="people">People</li></a>
+						<a href="publications.html"><li class="publications">Publications</li></a>
+						<a href="partners.html"><li class="partners">Collaboration</li></a>
+						<a href="events.html"><li class="events">Events</li></a>
+						<a href="about.html"><li class="about_us">About us</li></a>
+					</ul>
+
+				</div>
+				<!-- end of the nav bar div -->
+				<div class="body-content">
+					<div class="gallery-collections" id = "gallery-collections">
+						<a href="#gallery-collections"><h3>Events</h3></a>
+						<div class="gallery-container">
+							<ul>
+								<script id = "template" type = "text/x-handlebars-template">
+									{{#each this}}
+										<li>
+											<div class="gallery">
+												<img src = {{cover_pic}} alt="album-cover" id = "cover-pic">
+												<span id = "event-name">{{Event_name}}</span><br>
+												<span id = "event-date">{{Date}}</span>
+											</div>
+										</li>
+									{{/each}}
+								</script>
+							</ul>
+						</div>
+						<div class="event_details_container">
+								<script id = "template-event" type = "text/x-handlebars-template">
+								<div class="event-contents">
+									{{#each this}}
+										
+										<h3>{{name}}</h3>
+									
+										<div class="photo-collection">
+											{{#each photos}}
+												<img src={{photo}} alt="image">
+											{{/each}}
+											
+										</div>
+										<div class="description">
+											<h2>{{name}}</h2>
+											<article>
+												{{description}}
+											</article>
+											<h5>Guests</h5>
+											<ul class="guests">
+												{{#each guests}}
+													<li>{{guest}}</li>
+												{{/each}}
+											</ul>
+										</div>
+									{{/each}}
+								</div>
+								</script>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end of the boddy wrapper div -->
+			<!-- javascript includes -->
+			<script src = "../static/jquery.js"></script>
+			<script src = "../static/jquery.orbit-1.3.0.js"></script>
+			<script src = "../static/handlebars.js"></script>
+			<script src = "../js/events.js"></script>
+
+		</body>
+	</html>
+

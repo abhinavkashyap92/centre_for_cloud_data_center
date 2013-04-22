@@ -1,0 +1,104 @@
+[
+
+	{
+		"image":"../project_images/federated_security.png",
+		"title":"A Federated Multi-tenant System for OpenStack",
+		"group":"Anush V , Meghana Prashanth, Pramod Ramesh",
+		"description":"OpenStack is an Infrastructure as a Service (IaaS) cloud computing project that is free open source software released under the terms of the Apache License. The project is managed by the OpenStack Foundation, a non-profit corporate entity to protect and empower OpenStack software and its community.",
+		"content": "OpenStack is an Infrastructure as a Service (IaaS) cloud computing project that is free open source software released under the terms of the Apache License. The project is managed by the OpenStack Foundation, a non-profit corporate entity to protect and empower OpenStack software and its community. OpenStack provides a variety of services namely Nova(Compute), Swift(Storage), Glance(Image Service), Cinder(Block Storage), Quantum(Networking), Dashboard(Horizon) and finally Keystone(Identity). We are concerned with the OpenStack Identity service called Keystone. The current implementation of keystone does not support multi-tenancy i.e the ability of different tenants of a cloud service provider to interact with each other. It also lacks support for federation which is the ability of different tenants of one cloud service provider to interact with tenants of another cloud service provider. The aim of our project is to come up with a system using which the feature of federation and multi-tenancy can be achieved. In the below diagram, each Organization maybe modeled as running a different installation of OpenStack. Our model will facilitate a User from Organization A to access certain resources available in Organization B. Which resources are available to which users are defined by a set of rules in terms of 4-tuples. Finally the Organizations all need to be in a Trust relationship with each other. We are able to achieve this by modifying the policy engine which allows access to resources based on the credentials of the user. Also a new component called the Gateway is used in order to perform a remote access.",
+		"type":"cloud_infrastructure",
+		"mails":[{"name":"Anush V","email_id":""},{"name":"Meghana Prashanth","email_id":""},{"name":"Pramod Ramesh","email_id":""}]
+	},
+
+
+	{
+		"image":"../project_images/bigData_parallelisation_on_gpu_thumbnail.png",
+		"title":"Big data parallelisation on GPU",
+		"group":"Shruthi K , Shruthi Vinayaka Ranade , Sowmyashree K",
+		"description":"Aim is to parallelize the mahout K-Means clustering algorithm to run it on GPU systems and hence improve the performance.The k-Means map-reduce implementation by mahout is meant to run on CPU machines. We aim at building library for running map-reduce algorithms like kmeans to run on GPUs.",
+		"content": "Aim is to parallelize the mahout K-Means clustering algorithm to run it on GPU systems and hence improve the performance. The k-Means map-reduce implementation by mahout is meant to run on CPU machines. We aim at building library for running map-reduce algorithms like kmeans to run on GPUs. The following activities were carried out Understood the basic M-R implementation of k-means.The machine provided to us is Nvidia Tesla C1060 GPU machine. Installed single node hadoop cluster on the machine. Succesfully ran k-means MR implementation on CPU. Modified a normal vector addition program to run on GPU instead of CPU. Used aparapi library to convert java bytecode to opencl. Identified compute intensive part of the mahout k-means MR implemenattion and wrote our own library to which would invoke the GPU kernel code.Since generic programming on GPUs is meant for highly parallel applications we expect better results at the end of the project with huge input data (BigData).We intend to come up with a paper after analyzing the performance.",
+		"type":"cloud_infrastructure",
+		"mails":[{"name":"Shruthi K","email_id":""},{"name":"Shruthi Vinayaka Ranade","email_id":""},{"name":"Sowmyashree K","email_id":""}]
+	},
+
+	{
+		"image":"../project_images/hadooponos.png",
+		"title":"Hadoop on OpenStack",
+		"group":"Akshay M S ,Suhas M,Vincent Kuri,Ashish Kulkarni,Madhur Kapoor",
+		"description":"In this project, we aim to provide efficient support for Hadoop on OpenStack. Hadoop is a distributed computing framework and assumes it owns the hardware resources. This project focuses on reducing the overheads introduced by OpenStack and provide Hadoop Clusters as a Service as well as Scalable MapReduce as a Service. We also provide a solution for automatic scaling up and scaling down of the Hadoop cluster based on the load on Hadoop and OpenStack.",
+		"content":"Abstract: In this project, we aim to provide efficient support for Hadoop on OpenStack. Hadoop is a distributed computing framework and assumes it owns the hardware resources. This project focuses on reducing the overheads introduced by OpenStack and provide Hadoop Clusters as a Service as well as Scalable MapReduce as a Service. We also provide a solution for automatic scaling up and scaling down of the Hadoop cluster based on the load on Hadoop and OpenStack. Diagram: Attached in this mail",
+		"type":"cloud_infrastructure",
+		"mails":[{"name":"Akshay M S","email_id":"akshayms91@gmail.com"},{"name":"Suhas M","email_id":"suhas2112@gmail.com"},{"name":"Vincent Kuri","email_id":"vincentanupkuri@gmail.com"},{"name":"Ashish Kulkarni","email_id":"ashish8007.kulkarni@gmail.com"},{"name":"Madhur Kapoor","email_id":"madhur2511@gmail.com"}]
+
+	},
+
+	{
+		"image":"../project_images/noSqlBenchmarking.png",
+		"title":"No SQL Benchmarking",
+		"group":"OurGroup",
+		"description":"With the many new NoSQL databases available including Cassandra, Mongo DB , Redis DB, Couche DB, Dynamo and many more, it can be difficult to decide which one is right for your application, partially because the features differ, and partially because there is not an easy way to compare the performance of one with another.",
+		"content":"With the many new NoSQL databases available including Cassandra, Mongo DB , Redis DB, Couche DB, Dynamo and many more, it can be difficult to decide which one is right for your application, partially because the features differ, and partially because there is not an easy way to compare the performance of one with another.The goal of our project is to develop a web app to make exploratory studies simpler by easily visualising the results in a web interface for evaluating the performance of different key-value stores and also of their clusters using the Yahoo! Cloud Serving Benchmark(YCSB). We study and work on NoSQL DBs like Cassandra, Mongo and Redis.The following activities are carried out in this domain Cluster setup for Cassandra, DynamoDB, Redis and running YCSB on it.Using Wikipedia data as load to run for benchmarking. Benchmarking using different file systems - BTRFS, Zfs, Xfs.In this process we intend to extend YCSB for complex queries.",
+		"type":"cloud_infrastructure",
+		"mails":[{"name":"Akarsh E S","email_id":"akarsh.es@gmail.com"},{"name":"Arun U Bharadwaj","email_id":"arun.ub29@gmail.com"},{"name":"Raveendra Bhat","email_id":"me@raveendra.in"},{"name":"Arpan Gupta","email_id":"arpangupta420@gmail.com"},{"name":"Anubhav Shrivastava","email_id":"shrianu410@gmail.com"}]
+	},
+
+	{
+		"image":"../project_images/openstack.png",
+		"title":"OpenSim.",
+		"group":"Jnana Sagar K R,Bopanna D C,Himanshu Mathur",
+		"description":"In order to evaluate new strategies in utilization of Clouds (policies, scheduling algorithms, mapping and load balancing policies, etc), it is not feasible in realtime scenarios to directly deploy the cloud. Therefore we develop OpenSim, a simulator for Openstack to provide a reliable simulation which can be used to evaluate efficiency of strategies from different perspectives varying from cost/profit to speed up of application execution time.",
+		"content":"A short description about the project with a relevant diagram : In order to evaluate new strategies in utilization of Clouds (policies, scheduling algorithms, mapping and load balancing policies, etc), it is not feasible in realtime scenarios to directly deploy the cloud. Therefore we develop OpenSim, a simulator for Openstack to provide a reliable simulation which can be used to evaluate efficiency of strategies from different perspectives varying from cost/profit to speed up of application execution time.",
+		"type":"cloud_infrastructure",
+		"mails":[{"name":"Jnana Sagar K R","email_id":"jnanasagarkr@gmail.com"},{"name":"Bopanna D C","email_id":"bops.91@gmail.com"},{"name":"Himanshu Mathu","email_id":"Himanshu.miku@gmail.com"}]
+	},
+
+	{
+		"image":"../project_images/hybridCloud.png",
+		"title":"OpenStack Extension To Hybrid Cloud",
+		"group":"Sirushti Murugesan,Pavan S,Rohith Ananth,Ahmed Shabib,Abdul Hannan,Vidhisha Nair,Kruti Bhat,Swati Bhat,Akhilesh Hegde",
+		"description":"To distribute and scale workloads effectively across Private and Public Clouds.",
+		"content":"Objective: To distribute and scale workloads effectively across Private and Public Clouds.Key Features Leverage resources from Public Cloud on-demand. Manage Load-Balancing and Scaling Policies.Enable Transparency to End-User.",
+		"type":"cloud_infrastructure",
+		"mails":[{"name":"Sirushti Murugesan","email_id":"sirushtim@gmail.com"},{"name":"Pavan S","email_id":"pavan0591@gmail.com"},{"name":"Rohith Ananth","email_id":"rohithnelvagal@gmail.com"},{"name":"Ahmed Shabib","email_id":"reachshabib@gmail.com"},{"name":"Abdul Hannan","email_id":"hannanabdul55@gmail.com"},{"name":"Vidhisha Nair","email_id":"vidhishanair@gmail.com"},{"name":"Kruti Bhat","email_id":"kruti.bhat@gmail.com"},{"name":"Swati Bhat","email_id":"swaticbhat@gmail.com"},{"name":"Akhilesh Hegde","email_id":"akhil.d26@gmail.com"}]
+
+	},
+
+	{
+		"image":"../project_images/street_vendor.png",
+		"title":"Speech Technologies and Big Data",
+		"group":"Amritanshu, Kapish Agarwal,Neha Joshi, Debraj Ray",
+		"description":"This project enables the millions of street vendors in India to automatically populate details of their shop or service along with photos, location, etc. onto online business listings.",
+		"content": "This project enables the millions of street vendors in India to automatically populate details of their shop or service along with photos, location, etc. onto online business listings. The services or goods offered by the vendor are input in the form of speech. The listings are available to normal text based local search as well as speech based search.",
+		"type":"cloud_application",
+		"mails":[{"name":"Amritanshu","email_id":""},{"name":"Kapish Agarwal","email_id":""},{"name":"Neha Joshi","email_id":""},{"name":"Debraj Ray","email_id":""}]
+	},
+
+	{
+		
+		"image":"../project_images/hindi_speech_recognition.png",
+		"title":"HINDI SPEECH RECOGNITION AND PARALLEL TRAINING/RECOGNITION",
+		"group":"Animesh Priyadarshi, Shubham Sinha , Shahbaz Khan",
+		"description":"The primary objective of this project is speaker-independent recognition of Hindi words and short phrases with a high degree of accuracy. The project also aims at parallelizing the implementation of the training and decoding algorithms to enable better performance and improved accuracy of recognition.",
+		"content": "The primary objective of this project is speaker-independent recognition of Hindi words and short phrases with a high degree of accuracy. The project also aims at parallelizing the implementation of the training and decoding algorithms to enable better performance and improved accuracy of recognition. This technology will be used by semi-literate users, visually challenged users and technologically challenged users to carry out their day-to-day tasks through a computer or a mobile device using speech.The team has already collected a Hindi speech corpus of around 10000 speech samples, with around 250 recordings of a 500+ word vocabulary, and achieved an accuracy rate of around 90% and we are planning to contribute this back to Voxforge, an open-source corpus for speech.",
+		"type":"cloud_application",
+		"mails":[{"name":"Animesh Priyadarshi","email_id":""},{"name":"Shubham Sinha","email_id":""},{"name":"Shahbaz Khan","email_id":""}]
+	},
+
+	{
+		"image":"../project_images/speech_technologies.png",
+		"title":"Speech Recognition Using Language and acoustic model modificartions",
+		"group":"Prateek C J , R.Shwetha",
+		"description":"This project aims at improving accuracy of continuous speech recognition in English and other languages",
+		"content": "This project aims at improving accuracy of continuous speech recognition in English and other languages. The techniques used are the retrospective recognition. Here the first few words of a speech which may be feeble are recognized using the later part or the context of the speech and modifying the language mode. Databases of phrases are checked and according to the context match is made and it is returned hence improving the accuracy speech recognition. We use the CMU Sphinx toolkit for the training and recognition. CMU Sphinx is a group of speech recognition tools developed by Carnegie Mellon University which includes a series of speech recognizers and an acoustic and language model trainers (SphinxTrain)",
+		"type":"cloud_application",
+		"mails":[{"name":"Prateek C J","email_id":"prateekcj_666@gmail.com"},{"name":"R.Shwetha","email_id":"shwetha2424@gmail.com"}]
+	}
+
+
+
+
+
+
+
+
+]

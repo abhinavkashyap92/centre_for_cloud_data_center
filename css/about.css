@@ -1,0 +1,64 @@
+div.about-content
+{
+	margin:50px 30px 30px 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color: rgba(255,255,255,0.25);
+	border-radius: 2px;
+	color:rgba(255,255,255,0.80);
+	border-radius: 3px;
+	font-family: 'Jacques Francois', serif;
+	font-size: 1em;
+	height:auto;
+}
+div.about-content div.about-dept
+{
+	padding-top: 160px;
+}
+div.about-content div.about-dept .Address
+{
+	/*float: right;*/
+	margin-left: 46%;
+	margin-top: -200px;
+
+	 
+}
+
+div.about-content div.about-dept #dept-logo
+{
+	/*float: left;*/
+	padding-bottom: 50px;
+	margin-left: 20px;
+	margin-top: -520px;
+	width: 30%;
+	height: 70%;
+	z-index: 7;
+}
+
+div.about-content .description
+{
+	width: 70%;
+	margin-left: 30px;
+
+}
+
+div.map
+{
+	margin-left: 95px;
+	margin-top: 50px;
+}
+
+div.map small a{
+	text-decoration: none;
+	color:rgba(255,255,255,0.80);
+}
+ul.top_level_ul li.about_us
+{
+	position: relative;
+	top:5px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow: none;
+	color:rgba(28,131,192,0.9);
+	
+}

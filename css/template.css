@@ -1,0 +1,126 @@
+body{
+
+	background: url("../images/background.jpg");
+	background-attachment: fixed;
+	margin:0px;
+	padding:0px;
+
+}
+
+div.bodyWrapper
+{
+	width:70%;
+	height:auto;
+	min-width:700px;
+	background-color:rgba(33,80,130,0.55);
+	margin:auto;
+	border-radius:3px;
+	margin-top:10px;
+	margin-bottom:10px;
+	-webkit-animation: glow 1s infinite;
+	-moz-animation: glow 1s infinite;
+	padding-bottom: 10px;
+
+}
+
+
+div.header
+{
+	height:160px;
+	border-bottom: 1px dotted #1c83c0;
+}
+
+
+#logo
+{
+	width:28%;
+	height:70%;
+	margin-top: 2%;
+	margin-left: 2%;
+	float: left;
+}
+
+#pesit_logo
+{
+	width:14%;
+	height: 70%;
+	margin-top: 2%;
+	margin-right: 5%;
+	float: right;
+}
+
+
+
+ul.top_level_ul{
+	list-style: none;
+	width : 90%;
+	height:40px;
+	/*margin-left: 5%;
+	margin-right: 5%;*/
+	
+}
+
+ul.top_level_ul li{
+	display: inline-block;
+	width:13%;
+	height:75%;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px #1c83c0;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Jacques Francois', serif;
+	font-size: 0.8em;
+	padding-top:15px;
+	/*color:rgba(28,131,192,0.9);*/
+	color: white;
+	margin-top:5px;
+	/*margin-right: 7.5px;*/
+	font-weight: bold;
+	opacity: 0.8;
+	-webkit-animation:glow 10s infinite;
+	-moz-animation:glow 10s infinite;
+	animation:glow 10s infinite;
+
+}
+ul.top_level_ul li a
+{
+	text-decoration: none;
+	color:rgba(28,131,192,0.9);
+}
+
+ul.top_level_ul li:hover
+{
+	position: relative;
+	top:5px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow: none;
+	color:rgba(28,131,192,0.9);
+	
+	
+}
+
+.department_text
+{
+	clear: both;
+	margin-left:29.5%;
+	font-size: 1.3em;
+	color: white;
+	font-weight: bold;
+	padding-top:5px;
+
+}
+
+@-webkit-keyframes glow
+{
+	0% {box-shadow: 0 0 1px #1c83c0;}
+	50% {box-shadow: 0 0 10px #1c83c0;}
+	100% {box-shadow: 0 0 1px #1c83c0;}
+}
+
+@-moz-keyframes glow
+{
+	0% {box-shadow: 0 0 1px #1c83c0;}
+	50% {box-shadow: 0 0 10px #1c83c0;}
+	100% {box-shadow: 0 0 1px #1c83c0;}
+}

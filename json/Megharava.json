@@ -1,0 +1,18 @@
+[
+	{
+		"name":"Megharava",
+		"date":"01-01-2013",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium impedit iste velit adipisci officia quam aliquid! Tempore pariatur quibusdam accusantium modi non culpa saepe blanditiis error id? Quos animi debitis.",
+		"guests":["person1","person2","person3"],
+		"photos":["../photos/Megharava/DSC_6798.JPG","../photos/Megharava/DSC_6803.JPG","../photos/Megharava/DSC_6808.JPG",
+					"../photos/Megharava/DSC_6811.JPG","../photos/Megharava/DSC_6813.JPG","../photos/Megharava/DSC_6824.JPG",
+					"../photos/Megharava/DSC_6838.JPG","../photos/Megharava/DSC_6852.JPG","../photos/Megharava/DSC_6854.JPG",
+					"../photos/Megharava/DSC_6856.JPG","../photos/Megharava/DSC_6858.JPG","../photos/Megharava/DSC_6878.JPG",
+					"../photos/Megharava/DSC_6880.JPG","../photos/Megharava/DSC_6880.JPG","../photos/Megharava/DSC_6884.JPG",
+					"../photos/Megharava/DSC_6886.JPG","../photos/Megharava/DSC_6902.JPG","../photos/Megharava/DSC_6904.JPG",
+					"../photos/Megharava/DSC_6905.JPG","../photos/Megharava/DSC_6907.JPG","../photos/Megharava/DSC_6915.JPG",
+					"../photos/Megharava/DSC_6925.JPG"
+
+		]
+	}
+]

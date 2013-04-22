@@ -1,0 +1,70 @@
+div.body-content
+{
+	margin:40px 30px 10px 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 2px;
+	color:rgba(255,255,255,0.80);
+	border-radius: 3px;
+	font-family: 'Jacques Francois', serif;
+	font-size: 1em;
+	height:auto;
+
+}
+
+div.details
+{
+	background-color: rgba(255,255,255,0.25);
+	padding: 10px;
+	margin:10px;
+	border-radius: 3px;
+}
+div.details img
+{
+	float: left;
+	width:200px;
+	height: 220px;
+	display: inline-block;
+	margin-top: 15px;
+	border-radius: 3px;
+}
+div.details div.person_info
+{
+	margin-left:27%;
+	
+}
+div.details .contact{
+	margin-left: 27%;
+}
+
+div.contact
+{
+	margin-top: 15px;
+
+}
+span.faculty_name
+{
+	font-weight: bold;
+	font-size: 1.8em;
+}
+
+span.icon-envelope-alt 
+{
+	font-size: 13px;
+}
+span.icon-phone{
+	display: none;
+}
+ul.top_level_ul li.people
+{
+	position: relative;
+	top:5px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow: none;
+	color:rgba(28,131,192,0.9);
+	
+}

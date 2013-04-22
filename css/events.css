@@ -1,0 +1,172 @@
+div.gallery-collections
+{
+
+	margin:50px 30px 30px 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color: rgba(255,255,255,0.25);
+	border-radius: 2px;
+	color:rgba(255,255,255,0.80);
+	border-radius: 3px;
+	font-family: 'Jacques Francois', serif;
+	font-size: 1em;
+	height:auto;
+}
+
+div.gallery{
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+}	
+
+div.gallery #cover-pic
+{
+	height:inherit;
+	width:inherit;
+}
+
+div.gallery-collections h3,.event-header
+{
+
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 3px;
+	background-image: linear-gradient(bottom, rgb(15,68,125) 21%, rgb(90,148,219) 68%);
+	background-image: -o-linear-gradient(bottom, rgb(15,68,125) 21%, rgb(90,148,219) 68%);
+	background-image: -moz-linear-gradient(bottom, rgb(15,68,125) 21%, rgb(90,148,219) 68%);
+	background-image: -webkit-linear-gradient(bottom, rgb(15,68,125) 21%, rgb(90,148,219) 68%);
+	background-image: -ms-linear-gradient(bottom, rgb(15,68,125) 21%, rgb(90,148,219) 68%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.21, rgb(15,68,125)),
+		color-stop(0.68, rgb(90,148,219))
+	);
+	padding-top:0.3em;
+	padding-bottom: 0.3em;
+	
+	cursor: pointer;
+}
+div.gallery-collections a
+{
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+}
+
+div.gallery-collections .gallery:hover
+{
+	color: rgba(10,11,251,0.8);
+	/*text-shadow: 0px 0.5px 0.5px blue; */
+}
+
+div.gallery-container
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 50px;
+}
+div.gallery-container ul
+{
+	list-style: none;
+
+}
+div.gallery-container ul li 
+{
+	display: inline-block;
+	margin-left: 70px;
+	height: 200px;
+	-webkit-transition:-webkit-transform 2s;
+}
+
+div.gallery img
+{
+	border:1px solid #e7e3e3;
+	border-radius: 5px;
+	box-shadow: 1px 2px 3px rgba(33,33,33,1);
+}
+
+div.gallery-container ul li .gallery:hover
+{
+	-webkit-transform: scale(1.2);
+	box-shadow: 1px 2px 3px rgba(33,33,33,1);
+	/*z-index: 5;*/
+	position:relative;
+}
+div.gallery span
+{
+	font-size: 13px;
+}
+
+div.event-contents
+{
+	margin:50px 30px 30px 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color: rgba(255,255,255,0.25);
+	border-radius: 2px;
+	color:rgba(255,255,255,0.94);
+	border-radius: 5px;
+	font-family: 'Jacques Francois', serif;
+	font-size: 1em;
+	height:auto;
+	text-shadow:0px 1px 10px #1c83c0;
+}
+div.event_details_container .photo-collection
+{
+	height: 100px;
+	width: 60px;
+}
+
+.right,.left{
+	opacity:0.6;
+	-webkit-transition:opacity 0.5s;
+}
+
+.right:hover,.left:hover{
+	opacity: 1;
+}
+.right
+{
+	/*margin-right: 16.5%;*/
+}
+.left
+{
+	/*margin-left:16.5%; */
+}
+
+div.event_details_container .event-header
+{
+	text-align: center;
+}
+div.event_details_container .description
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px 10px 10px 10px;
+}
+div.event_details_container .description h2
+{
+	text-align: left;
+}
+div.photo-collection img{
+	width:80%;
+	height: 350px;
+	margin-left: 10%;
+}
+ul.top_level_ul li.events
+{
+	position: relative;
+	top:5px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow: none;
+	color:rgba(28,131,192,0.9);
+	
+}
+div.description,div.guests
+{
+	display: none;
+}

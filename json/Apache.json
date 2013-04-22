@@ -1,0 +1,12 @@
+[
+	{
+		"name":"Apache",
+		"date":"01-01-2013",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium impedit iste velit adipisci officia quam aliquid! Tempore pariatur quibusdam accusantium modi non culpa saepe blanditiis error id? Quos animi debitis.",
+		"guests":["person1","person2","person3"],
+		"photos":["../photos/Apache/IMG_1160.JPG","../photos/Apache/IMG_1175.JPG","../photos/Apache/IMG_1186.JPG",
+				"../photos/Apache/IMG_1202.JPG","../photos/Apache/IMG_1232.JPG","../photos/Apache/IMG_1250.JPG",
+				"../photos/Apache/IMG_1256.JPG","../photos/Apache/IMG_1280.JPG"
+		]
+	}
+]
